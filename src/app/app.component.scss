@@ -1,0 +1,33 @@
+
+$mataille: 250;
+
+.ma-vue-image{
+  height: $mataille+px;
+  width: ($mataille*4)+80+px;
+  width: calc(20% + ($mataille*2)+px);
+
+  .image{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: $mataille+px;
+    height: $mataille+px;
+  }
+
+  .shiatsu{
+    background-image: url('../assets/img/1_shu_btn.jpg');
+  }
+
+  .tuina{
+    background-image: url('../assets/img/2_tui_btn.jpg');
+  }
+
+  .huile {
+    background-image: url('../assets/img/3_hui_btn.jpg');
+  }
+
+  .relax {
+    background-image: url('../assets/img/4_cor_btn.jpg');
+  }
+
+}

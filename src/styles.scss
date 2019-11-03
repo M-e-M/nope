@@ -1,0 +1,40 @@
+
+Html, body{
+  height: 100%;
+}
+
+.height{
+  height: 100%;
+}
+
+.width{
+  width: 100%;
+}
+
+.flex{
+  display: flex;
+}
+
+.flex-1{
+  flex: 1;
+}
+
+.vertical{
+  flex-direction: column;
+}
+
+
+
+.flex-grid {
+  display: flex;
+}
+
+.col {
+  flex: 1;
+}
+
+@media (max-width: 400px) {
+  .flex-grid {
+    display: block;
+  }
+}
